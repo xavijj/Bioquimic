@@ -1,16 +1,55 @@
 <ion-view view-title="Tabla Nutricional">
   <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
+    <table class="egt">
 
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
+  <tr>
+
+    <th scope="row">Día</th>
+
+    <th>Hoy</th>
+
+    <th>Mañana</th>
+
+    <th>Miércoles</th>
+
+  </tr>
+
+  <tr>
+
+    <th>Condición</th>
+
+    <td>Soleado</td>
+
+    <td>Mayormente soleado</td>
+
+    <td>Parcialmente nublado</td>
+
+  </tr>
+
+  <tr>
+
+    <th>Temperatura</th>
+
+    <td>19°C</td>
+
+    <td>17°C</td>
+
+    <td>12°C</td>
+
+  </tr>
+
+  <tr>
+
+    <th>Vientos</th>
+
+    <td>E 13 km/h</td>
+
+    <td>E 11 km/h</td>
+
+    <td>S 16 km/h</td>
+
+  </tr>
+
+</table>
   </ion-content>
 </ion-view>
