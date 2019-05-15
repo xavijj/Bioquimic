@@ -132,3 +132,9 @@ body {
 .space{
 	padding-top:20%;
 }
+.fondo{ 
+background-color: #33FFDD
+ }
+ p {
+  border: red 5px outset;
+}
