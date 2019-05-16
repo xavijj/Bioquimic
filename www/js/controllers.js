@@ -17,6 +17,11 @@ angular.module('starter.controllers', [])
   };
 })
 
+
+.controller('adnCtrl',function($scope){
+  
+})
+
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
 })
@@ -107,7 +112,4 @@ var render = function () {
 }
 
 render();
-})
-.controller("userCtrl", function($scope) {
-
 });
