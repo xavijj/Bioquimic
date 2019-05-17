@@ -17,6 +17,8 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('juegoCtrl', function($scope) {})
+
 
 .controller('adnCtrl',function($scope){
   

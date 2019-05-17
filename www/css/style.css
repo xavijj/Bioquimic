@@ -9,6 +9,18 @@ background-image: url(../img/agua.jpg);
  .fondo2{
 background-image: url(../img/adn.jpg);
  }
+ .fondo3{
+background-image: url(../img/comida2.jpg);
+ }
+ .fondo4{
+background-image: url(../img/juego.jpg);
+ }
+ .row{
+background:#E5246A;
+ }
+ .row2{
+background:#1DD9EC;
+ }
  .letra{
   color: #FFFFFF
  }
